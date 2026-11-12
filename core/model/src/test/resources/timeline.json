@@ -1,0 +1,106 @@
+{
+  "data": {
+    "home": {
+      "home_timeline_urt": {
+        "instructions": [
+          {
+            "type": "TimelineAddEntries",
+            "entries": [
+              {
+                "content": {
+                  "itemContent": {
+                    "tweet_results": {
+                      "result": {
+                        "rest_id": "1001",
+                        "__typename": "Tweet",
+                        "core": {
+                          "user_results": {
+                            "result": {
+                              "rest_id": "9",
+                              "legacy": {
+                                "name": "Ocean Lab",
+                                "screen_name": "oceanlab_sample",
+                                "followers_count": 1200,
+                                "friends_count": 10,
+                                "description": "Waves",
+                                "profile_image_url_https": "https://example.com/a.jpg"
+                              }
+                            }
+                          }
+                        },
+                        "legacy": {
+                          "full_text": "Slow-motion barrel wave",
+                          "created_at": "Wed Nov 11 12:00:00 +0000 2026",
+                          "reply_count": 3,
+                          "retweet_count": 2300,
+                          "favorite_count": 19000,
+                          "extended_entities": {
+                            "media": [
+                              {
+                                "type": "video",
+                                "id_str": "v1",
+                                "media_url_https": "https://example.com/p.jpg",
+                                "video_info": {
+                                  "duration_millis": 58000,
+                                  "variants": [
+                                    {"content_type": "application/x-mpegURL", "url": "https://video.example/a.m3u8"},
+                                    {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.example/low.mp4"},
+                                    {"content_type": "video/mp4", "bitrate": 2500000, "url": "https://video.example/high.mp4?auth_token=nope"}
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "views": {"count": "1100000"}
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "content": {
+                  "itemContent": {
+                    "tweet_results": {
+                      "result": {
+                        "__typename": "TweetWithVisibilityResults",
+                        "tweet": {
+                          "rest_id": "1002",
+                          "legacy": {
+                            "full_text": "Just a text post about the ridge.",
+                            "reply_count": 1,
+                            "retweet_count": 0,
+                            "favorite_count": 4
+                          },
+                          "core": {
+                            "user_results": {
+                              "result": {
+                                "legacy": {
+                                  "name": "Sample Creator",
+                                  "screen_name": "sample_handle",
+                                  "followers_count": 10,
+                                  "description": "Films"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "content": {
+                  "entryType": "TimelineTimelineCursor",
+                  "cursorType": "Bottom",
+                  "value": "NEXT_CURSOR_VALUE"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

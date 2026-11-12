@@ -1,0 +1,14 @@
+{
+  "id": "x-web-v1",
+  "loginUrl": "https://x.com/i/flow/login",
+  "homeUrl": "https://x.com/home",
+  "bookmarksUrl": "https://x.com/i/bookmarks",
+  "searchUrl": "https://x.com/search?q={query}&src=typed_query&f=live",
+  "profileUrl": "https://x.com/{handle}",
+  "likesUrl": "https://x.com/{handle}/likes",
+  "statusUrl": "https://x.com/i/status/{id}",
+  "article": "article",
+  "userName": "[data-testid='User-Name']",
+  "tweetText": "[data-testid='tweetText']",
+  "followingLabels": ["Following"]
+}
